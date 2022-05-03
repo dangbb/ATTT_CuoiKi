@@ -1,3 +1,5 @@
+import random
+import string
 
 
 class ShiftCipher:
@@ -25,8 +27,10 @@ class ShiftCipher:
 
 if __name__ == "__main__":
     with open("input.inp", "r") as f:
-        key = int(f.readline())
-        plaintext = f.readline().upper().strip('\n')
+        key = random.randint(0, 25)
+        plaintext = f.read().strip(' ').strip('\n').upper()
+        plaintext = plaintext.translate(str.maketrans('', '', string.punctuation + '\n' + ' '))
+
 
     system = ShiftCipher()
     print("Giá trị của khóa: key = ", key)

@@ -24,7 +24,7 @@ class AffineCipher:
             self.b = key[1]
         self.invA = invModulo(self.a, self.mod)[0]
 
-        print("Giá trị khóa: a = {}, b = {}", self.a, self.b)
+        print("Giá trị khóa: a = {}, b = {}".format(self.a, self.b))
 
     def encode(self, plaintext):
         result = ''

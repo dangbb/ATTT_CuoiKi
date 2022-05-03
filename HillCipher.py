@@ -41,7 +41,18 @@ class HillCipher:
 
     @staticmethod
     def decode_static(ciphertext, key):
-        pass
+        n = len(key)
+        result = ''
+        for i in range(0, len(ciphertext), n):
+            currentEncode = []
+            for j in range(i, i + n):
+                c = ciphertext[j]
+                currentEncode.append(ord(c) - ord('A'))
+
+            plaintext = key.matmulInv(np.array(currentEncode, dtype=np.int))
+            for j in range(0, n):
+                result = result + chr(plaintext[j] + ord('A'))
+        return result
 
     @staticmethod
     def analysis(ciphertext, plaintext, n):
@@ -96,9 +107,14 @@ class HillCipher:
 
                 print("Giá trị của nghịch đảo của plain\n", Invplain)
                 print("Giá trị của khóa dự đoán được là\n", predict_key)
+                print("Giá trị của bản mã với khóa tương ứng là\n", HillCipher.decode_static(
+                    ciphertext,
+                    ModMatrix(predict_key)
+                ))
                 break
             except Exception as e:
-                start_ += 1
+                print(e)
+                start_ += n
 
 
 if __name__ == "__main__":

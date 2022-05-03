@@ -98,7 +98,7 @@ if __name__ == "__main__":
 
         print("Xâu đầu vào: ", input_string)
 
-        cipher = VigenereCipher('MXE')
+        cipher = VigenereCipher('YENES')
         ciphertext = cipher.encode(input_string)
         print("Giá trị bản mã: ")
         print(ciphertext)

@@ -12,11 +12,13 @@ from itertools import permutations
 class PermutationCipher:
 
     def __init__(self, key):
+        print("Giá trị hoán vị khóa: ", key)
         self.key = key
         self.invKey = {}
         for i in range(len(key)):
             self.invKey[self.key[i]] = i
         self.m = len(key)
+        print("Giá trị hoán vị khóa nghịch đảo: ", self.invKey)
 
     def encode(self, plaintext):
         while len(plaintext) % self.m != 0:
@@ -89,7 +91,7 @@ if __name__ == "__main__":
         input_string = input_string.translate(str.maketrans('', '', string.punctuation + '\n' + ' '))
 
         print("Xâu đầu vào: ", input_string)
-        cipher = PermutationCipher([2, 4, 0, 5, 3, 1])
+        cipher = PermutationCipher([1, 0, 3, 2])
 
         ciphertext = cipher.encode(input_string)
         print("Giá trị bản mã\n", ciphertext)

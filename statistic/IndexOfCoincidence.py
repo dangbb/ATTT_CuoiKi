@@ -3,12 +3,10 @@ from statistic.English import *
 def IndexOfCoincidence(freq):
     ic = 0
     n = 0
-    print(freq)
     for i in range(0, 26):
         n = n + freq[i]
 
         ic = ic + freq[i] * (freq[i] - 1)
-    print(n)
     return ic / (n * (n - 1))
 
 

@@ -5,9 +5,12 @@ def modNegative(val):
     return (val + (- val // 26) * 26 + 26) % 26
 
 class ModMatrix:
-    def __init__(self, np_arr: np.ndarray):
+    def __init__(self, np_arr: np.ndarray, calcInv=True):
         self.n = np_arr.shape[0]
         self.arr = np_arr
+
+        if not calcInv:
+            return
 
         det = np.linalg.det(self.arr)
         self.invArr = np.linalg.inv(self.arr) * det
@@ -21,6 +24,8 @@ class ModMatrix:
         det = round(det)
         det = modNegative(det)
 
+        print("Giá trị của định thức: ", det)
+
         assert det != 0, "Ma trận có giá trị định thức bằng không, không có nghịch đảo."
         assert gcd(det, 26) == 1, "Định thức không nguyên tố cùng nhau với 26."
 
@@ -32,6 +37,9 @@ class ModMatrix:
         for i in range(self.n):
             for j in range(self.n):
                 self.invArr[i][j] = modNegative(self.invArr[i][j])
+
+    def __len__(self):
+        return self.n
 
     def getInv(self):
         return self.invArr
