@@ -140,7 +140,7 @@ if __name__ == "__main__":
 
         print("Xâu đầu vào: ", input_string)
 
-        cipher = AffineCipher([3, 15])
+        cipher = AffineCipher([21, 5])
         ciphertext = cipher.encode(input_string)
         print("Giá trị bản mã: ")
         print(ciphertext)

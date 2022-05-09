@@ -13,6 +13,9 @@ class HillCipher:
         self.n = key.shape[0]
 
     def encode(self, plaintext):
+        while len(plaintext) % self.n != 0:
+            plaintext = plaintext + 'Q'
+
         result = ''
         for i in range(0, len(plaintext), self.n):
             currentEncode = []
@@ -37,6 +40,9 @@ class HillCipher:
             plaintext = self.key.matmulInv(np.array(currentEncode, dtype=np.int))
             for j in range(0, self.n):
                 result = result + chr(plaintext[j] + ord('A'))
+
+        while len(result) > 0 and result[-1] == 'Q':
+            result = result[:-1]
         return result
 
     @staticmethod

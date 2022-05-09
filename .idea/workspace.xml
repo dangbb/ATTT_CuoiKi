@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2b04087a-c604-422d-8c23-ddd9c04fe98b" name="Default Changelist" comment="" />
+    <list default="true" id="2b04087a-c604-422d-8c23-ddd9c04fe98b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AffineCipher.py" beforeDir="false" afterPath="$PROJECT_DIR$/AffineCipher.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HillCipher.py" beforeDir="false" afterPath="$PROJECT_DIR$/HillCipher.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/input.inp" beforeDir="false" afterPath="$PROJECT_DIR$/input.inp" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,7 +22,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/ATTT_TieuLuan_CuoiKi" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="27eD07cGcALw2zX4K6WLmi65IXF" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -28,7 +35,28 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
-  <component name="RunManager" selected="Python.PermutationCipher">
+  <component name="RunManager" selected="Python.AffineCipher">
+    <configuration name="AffineCipher" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ATTT_CuoiKi" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AffineCipher.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="HillCipher" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ATTT_CuoiKi" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -71,27 +99,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="SubstitutionCipher" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="ATTT_CuoiKi" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SubstitutionCipher.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="VigenereCipher" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ATTT_CuoiKi" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -113,7 +120,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="dmath" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="algebra" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ATTT_CuoiKi" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -121,11 +128,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dmath" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algebra" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dmath/dmath.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algebra/algebra.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -136,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.PermutationCipher" />
-        <item itemvalue="Python.SubstitutionCipher" />
-        <item itemvalue="Python.VigenereCipher" />
-        <item itemvalue="Python.dmath" />
+        <item itemvalue="Python.AffineCipher" />
         <item itemvalue="Python.HillCipher" />
+        <item itemvalue="Python.algebra" />
+        <item itemvalue="Python.PermutationCipher" />
+        <item itemvalue="Python.VigenereCipher" />
       </list>
     </recent_temporary>
   </component>
@@ -162,29 +169,29 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="248" y="323" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1650912177494" />
-    <state width="212" height="904" key="GridCell.Tab.0.bottom" timestamp="1651258806167">
+    <state width="651" height="912" key="GridCell.Tab.0.bottom" timestamp="1652091902715">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="212" height="904" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1651258806167" />
-    <state width="212" height="904" key="GridCell.Tab.0.center" timestamp="1651258806167">
+    <state width="651" height="912" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1652091902715" />
+    <state width="651" height="912" key="GridCell.Tab.0.center" timestamp="1652091902715">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="212" height="904" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1651258806167" />
-    <state width="212" height="904" key="GridCell.Tab.0.left" timestamp="1651258806166">
+    <state width="651" height="912" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1652091902715" />
+    <state width="651" height="912" key="GridCell.Tab.0.left" timestamp="1652091902715">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="212" height="904" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1651258806166" />
-    <state width="212" height="904" key="GridCell.Tab.0.right" timestamp="1651258806167">
+    <state width="651" height="912" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1652091902715" />
+    <state width="651" height="912" key="GridCell.Tab.0.right" timestamp="1652091902715">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="212" height="904" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1651258806167" />
+    <state width="651" height="912" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1652091902715" />
     <state x="461" y="162" key="SettingsEditor" timestamp="1650881913638">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1650881913638" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1650952279541">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1651312892689">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1650952279541" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1651312892689" />
   </component>
 </project>
